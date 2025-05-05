@@ -63,4 +63,5 @@ group :test do
   gem "rspec"
 end
 
+gem "view_component"
 gem "rspec-rails", "~> 8.0"
