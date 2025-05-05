@@ -3,7 +3,7 @@ module Api
     
     def server_time
       time = Time.current()
-      render json: { data: {time: time} }
+      render json: { data: {time: time} }, status: :ok
     end
   end
 end
